@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Mojo </title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html"><img src="logo.webp" alt="LuxeSteps Logo" class="nav-logo"></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shoes.html">Menu</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li id="search-container">
+                    <input type="text" id="search" placeholder="Search Shoes..." onkeyup="handleSearch(event)">
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Welcome Section with Slideshow -->
+    <section class="welcome-section">
+        <div class="slideshow-container">
+            <img src="s1.jpg" class="active" alt="coffees 1">
+            <img src="s2.jpg" alt="coffee 2">
+            <img src="s3.jpg" alt="coffee 3">
+        </div>
+        <div class="welcome-title">
+            <h1>Coffee Mojo</h1>
+            <h4>Best coffee in the North!</h4>
+        </div>
+    </section>
+    <h1 class="about"><center>About Us</center></h1>
+    <p class="aboutstones">we offer the best coffee in the North!.</p>
+
+
+
+
+ <!-- Product Catalog -->
+ <h1 class="best">Menu</h1>
+ <section id="catalog">
+     <div class="product" data-name="Black Coffee">
+         <img src="sh1.jpg" alt="Black Coffee">
+         <h3>Black Coffee</h3>
+         <p>12oz<br>
+         <span>$8.00 BZD</span>
+        
+     </div>
+        <div class="product" data-name="Ice Coffee">
+            <img src="sh2.jpg" alt="Ice coffee">
+            <h3>Ice Coffee</h3>
+            <p>12oz</p>
+            
+            <span>$10.50</span>
+      
+        </div>
+        <div class="product" data-name=" Special Coffee">
+            <img src="sh3.jpg" alt=" sc">
+            <h3> Special Coffee</h3>
+            <p> 12oz</p>
+          <span>$12.50</span>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Coffee Mojo. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
